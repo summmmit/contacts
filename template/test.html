@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/test.css" rel='stylesheet' type='text/css' />
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/test.js"></script>
+</head>
+<body ng-controller="AppCtrl" id="cont" ng-app="exampleApp">
+<div class="add-panel">
+    <div id="add-panel-switch" class="switch">
+        <div ng-click="drawer.togglePlus()" class="action-button option one">
+            2
+        </div>
+        <div ng-click="drawer.togglePlus()" class="action-button option two">
+            1
+        </div>
+        <div ng-click="drawer.togglePlus()" class="action-button plus">
+          <span>
+          +
+        </span>
+        </div>
+    </div>
+</div>
+<div ng-click="drawer.show()" class="fixed" id="topbar">
+    <div class="title">
+        {{ title }}
+    </div>
+</div>
+<!-- toggle icon for toggling menu -->
+<a href="#" class="menu-icon" id="nav-toggle">
+    <span></span>
+</a>
+<!-- stripe on the left of the screen to detect slide from side of the screen -->
+<div id="swipe-stripe"></div>
+<!-- body of the menu drawer -->
+<div ng-click="drawer.hide()" id="drawer">
+    <div class="drawer large" id="topbar">
+        <img src="http://placehold.it/120/120" class="gravatar"/>
+        <div class="username">
+            <strong>John</strong>
+            <br/>
+
+            Doe
+        </div>
+    </div>
+    <ul class="nav">
+        <li>
+            <a href="#app">App</a>
+        </li>
+        <li>
+            <a href="#settings">Settings</a>
+        </li>
+        <div class="bottom">
+            <li>
+                <a href="#settings">Settings</a>
+            </li>
+        </div>
+    </ul>
+</div>
+<!-- takes care of the overlay dimming -->
+<div ng-click="drawer.hide(); drawer.togglePlus(true);" id="drawer-dimm"></div>
+<!-- your part of the code, views etc.. -->
+<ion-scroll direction="y" zooming="false" id="view-content">
+    <div ng-view=""></div>
+</ion-scroll>
+</body>
+</html>

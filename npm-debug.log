@@ -1,0 +1,337 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bower' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of C:\Users\1084760\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\1084760\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'bower', null ]
+7 verbose cache add spec bower
+8 silly cache add parsed spec { raw: 'bower',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'bower',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed bower@*
+10 verbose addNamed "*" is a valid semver range for bower
+11 silly addNameRange { name: 'bower', range: '*', hasData: false }
+12 silly mapToRegistry name bower
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://registry.npms.org/
+15 silly mapToRegistry uri http://registry.npms.org/bower
+16 verbose addNameRange registry:http://registry.npms.org/bower not in flight; fetching
+17 verbose request uri http://registry.npms.org/bower
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 2:52:50 PM
+20 verbose request id ac69d78539dea8f3
+21 http request GET http://registry.npms.org/bower
+22 http 407 http://registry.npms.org/bower
+23 verbose bad json <HTML>
+23 verbose bad json <HEAD>
+23 verbose bad json <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+23 verbose bad json <META name="copyright" content="Copyright &copy; 1999 Digital Arts Inc.">
+23 verbose bad json
+23 verbose bad json <TITLE>ERROR</TITLE>
+23 verbose bad json <STYLE type="text/css">
+23 verbose bad json <!--
+23 verbose bad json .errtitle {  font-size: 16px}
+23 verbose bad json td {  font-size: 12px}
+23 verbose bad json -->
+23 verbose bad json </STYLE>
+23 verbose bad json </HEAD>
+23 verbose bad json
+23 verbose bad json <BODY bgcolor="#FFFFFF" text="#000000" leftmargin="16" topmargin="16" marginwidth="16" marginheight="16">
+23 verbose bad json <TABLE border="0" cellspacing="0" cellpadding="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD><IMG src="http://inetnf.cts/block.jpg"></TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE border="0" cellspacing="0" cellpadding="0" width="480" height="16">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD width="480" height="16">&nbsp;</TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellpadding="6" cellspacing="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD>
+23 verbose bad json    <FONT size="4"><SPAN class="errtitle">ページを表示できません</SPAN></FONT>
+23 verbose bad json   </TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD>&nbsp;</TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellpadding="6" cellspacing="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD>
+23 verbose bad json    認証に失敗しました。<BR><BR><BR>ユーザー名とパスワードを確認してください。  </TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE border="0" cellspacing="0" cellpadding="0" width="480">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD height="16">&nbsp;</TD>
+23 verbose bad json  </TR>
+23 verbose bad json  <TR>
+23 verbose bad json   <TD height="16">
+23 verbose bad json    <HR width="100%" size="1" noshade>
+23 verbose bad json   </TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD>&nbsp;</TD>
+23 verbose bad json  </TR>
+23 verbose bad json  </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellspacing="0" cellpadding="4">
+23 verbose bad json   <TR>
+23 verbose bad json   <TD nowrap width="60" align="center">URL</TD>
+23 verbose bad json   <TD>http://registry.npms.org/bower</TD>
+23 verbose bad json  </TR>
+23 verbose bad json   <TR>
+23 verbose bad json   <TD nowrap width="60" align="center">IPアドレス</TD>
+23 verbose bad json   <TD>172.26.29.216</TD>
+23 verbose bad json  </TR>
+23 verbose bad json  </TABLE>
+23 verbose bad json <TABLE border="0" cellspacing="0" cellpadding="0" width="480">
+23 verbose bad json  <TR><TD height="16"><HR width="100%" size="1" noshade></TD></TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellpadding="2" cellspacing="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD>
+23 verbose bad json      </TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD>&nbsp;</TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json <TABLE border="0" cellpadding="4" cellspacing="0">
+23 verbose bad json  <TR>
+23 verbose bad json   <TD><FONT color="#333333">DateTime:</FONT></TD>
+23 verbose bad json   <TD><FONT color="#333333">2016/02/15 14:52:50</FONT></TD>
+23 verbose bad json  </TR>
+23 verbose bad json </TABLE>
+23 verbose bad json </BODY>
+23 verbose bad json </HTML>
+24 error registry error parsing json
+25 verbose headers { 'proxy-connection': 'close',
+25 verbose headers   'content-type': 'text/html; charset=utf-8',
+25 verbose headers   'proxy-authenticate': 'NTLM',
+25 verbose headers   pragma: 'no-cache',
+25 verbose headers   expires: 'Tue, 2 Jan 2001 20:00:00 GMT',
+25 verbose headers   'content-length': '2356' }
+26 silly get cb [ 407,
+26 silly get   { 'proxy-connection': 'close',
+26 silly get     'content-type': 'text/html; charset=utf-8',
+26 silly get     'proxy-authenticate': 'NTLM',
+26 silly get     pragma: 'no-cache',
+26 silly get     expires: 'Tue, 2 Jan 2001 20:00:00 GMT',
+26 silly get     'content-length': '2356' } ]
+27 verbose stack SyntaxError: Unexpected token <
+27 verbose stack <HTML>
+27 verbose stack <HEAD>
+27 verbose stack <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+27 verbose stack <META name="copyright" content="Copyright &copy; 1999 Digital Arts Inc.">
+27 verbose stack
+27 verbose stack <TITLE>ERROR</TITLE>
+27 verbose stack <STYLE type="text/css">
+27 verbose stack <!--
+27 verbose stack .errtitle {  font-size: 16px}
+27 verbose stack td {  font-size: 12px}
+27 verbose stack -->
+27 verbose stack </STYLE>
+27 verbose stack </HEAD>
+27 verbose stack
+27 verbose stack <BODY bgcolor="#FFFFFF" text="#000000" leftmargin="16" topmargin="16" marginwidth="16" marginheight="16">
+27 verbose stack <TABLE border="0" cellspacing="0" cellpadding="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD><IMG src="http://inetnf.cts/block.jpg"></TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE border="0" cellspacing="0" cellpadding="0" width="480" height="16">
+27 verbose stack  <TR>
+27 verbose stack   <TD width="480" height="16">&nbsp;</TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellpadding="6" cellspacing="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD>
+27 verbose stack    <FONT size="4"><SPAN class="errtitle">ページを表示できません</SPAN></FONT>
+27 verbose stack   </TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD>&nbsp;</TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellpadding="6" cellspacing="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD>
+27 verbose stack    認証に失敗しました。<BR><BR><BR>ユーザー名とパスワードを確認してください。  </TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE border="0" cellspacing="0" cellpadding="0" width="480">
+27 verbose stack  <TR>
+27 verbose stack   <TD height="16">&nbsp;</TD>
+27 verbose stack  </TR>
+27 verbose stack  <TR>
+27 verbose stack   <TD height="16">
+27 verbose stack    <HR width="100%" size="1" noshade>
+27 verbose stack   </TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD>&nbsp;</TD>
+27 verbose stack  </TR>
+27 verbose stack  </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellspacing="0" cellpadding="4">
+27 verbose stack   <TR>
+27 verbose stack   <TD nowrap width="60" align="center">URL</TD>
+27 verbose stack   <TD>http://registry.npms.org/bower</TD>
+27 verbose stack  </TR>
+27 verbose stack   <TR>
+27 verbose stack   <TD nowrap width="60" align="center">IPアドレス</TD>
+27 verbose stack   <TD>172.26.29.216</TD>
+27 verbose stack  </TR>
+27 verbose stack  </TABLE>
+27 verbose stack <TABLE border="0" cellspacing="0" cellpadding="0" width="480">
+27 verbose stack  <TR><TD height="16"><HR width="100%" size="1" noshade></TD></TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellpadding="2" cellspacing="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD>
+27 verbose stack      </TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD>&nbsp;</TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack <TABLE border="0" cellpadding="4" cellspacing="0">
+27 verbose stack  <TR>
+27 verbose stack   <TD><FONT color="#333333">DateTime:</FONT></TD>
+27 verbose stack   <TD><FONT color="#333333">2016/02/15 14:52:50</FONT></TD>
+27 verbose stack  </TR>
+27 verbose stack </TABLE>
+27 verbose stack </BODY>
+27 verbose stack </HTML>
+27 verbose stack
+27 verbose stack     at Object.parse (native)
+27 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:197:23)
+27 verbose stack     at Request._callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+27 verbose stack     at Request.self.callback (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:368:22)
+27 verbose stack     at Request.emit (events.js:110:17)
+27 verbose stack     at Request.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1219:14)
+27 verbose stack     at Request.emit (events.js:129:20)
+27 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\request\request.js:1167:12)
+27 verbose stack     at IncomingMessage.emit (events.js:129:20)
+27 verbose stack     at _stream_readable.js:908:16
+28 verbose cwd C:\xampp\htdocs\practise\contact
+29 error Windows_NT 6.1.7601
+30 error argv "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "bower"
+31 error node v0.12.4
+32 error npm  v2.10.1
+33 error Unexpected token <
+33 error <HTML>
+33 error <HEAD>
+33 error <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+33 error <META name="copyright" content="Copyright &copy; 1999 Digital Arts Inc.">
+33 error
+33 error <TITLE>ERROR</TITLE>
+33 error <STYLE type="text/css">
+33 error <!--
+33 error .errtitle {  font-size: 16px}
+33 error td {  font-size: 12px}
+33 error -->
+33 error </STYLE>
+33 error </HEAD>
+33 error
+33 error <BODY bgcolor="#FFFFFF" text="#000000" leftmargin="16" topmargin="16" marginwidth="16" marginheight="16">
+33 error <TABLE border="0" cellspacing="0" cellpadding="0">
+33 error  <TR>
+33 error   <TD><IMG src="http://inetnf.cts/block.jpg"></TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE border="0" cellspacing="0" cellpadding="0" width="480" height="16">
+33 error  <TR>
+33 error   <TD width="480" height="16">&nbsp;</TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE width="480" border="0" cellpadding="6" cellspacing="0">
+33 error  <TR>
+33 error   <TD>
+33 error    <FONT size="4"><SPAN class="errtitle">ページを表示できません</SPAN></FONT>
+33 error   </TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+33 error  <TR>
+33 error   <TD>&nbsp;</TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE width="480" border="0" cellpadding="6" cellspacing="0">
+33 error  <TR>
+33 error   <TD>
+33 error    認証に失敗しました。<BR><BR><BR>ユーザー名とパスワードを確認してください。  </TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE border="0" cellspacing="0" cellpadding="0" width="480">
+33 error  <TR>
+33 error   <TD height="16">&nbsp;</TD>
+33 error  </TR>
+33 error  <TR>
+33 error   <TD height="16">
+33 error    <HR width="100%" size="1" noshade>
+33 error   </TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+33 error  <TR>
+33 error   <TD>&nbsp;</TD>
+33 error  </TR>
+33 error  </TABLE>
+33 error <TABLE width="480" border="0" cellspacing="0" cellpadding="4">
+33 error   <TR>
+33 error   <TD nowrap width="60" align="center">URL</TD>
+33 error   <TD>http://registry.npms.org/bower</TD>
+33 error  </TR>
+33 error   <TR>
+33 error   <TD nowrap width="60" align="center">IPアドレス</TD>
+33 error   <TD>172.26.29.216</TD>
+33 error  </TR>
+33 error  </TABLE>
+33 error <TABLE border="0" cellspacing="0" cellpadding="0" width="480">
+33 error  <TR><TD height="16"><HR width="100%" size="1" noshade></TD></TR>
+33 error </TABLE>
+33 error <TABLE width="480" border="0" cellpadding="2" cellspacing="0">
+33 error  <TR>
+33 error   <TD>
+33 error      </TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE width="480" border="0" cellspacing="0" cellpadding="0">
+33 error  <TR>
+33 error   <TD>&nbsp;</TD>
+33 error  </TR>
+33 error </TABLE>
+33 error <TABLE border="0" cellpadding="4" cellspacing="0">
+33 error  <TR>
+33 error   <TD><FONT color="#333333">DateTime:</FONT></TD>
+33 error   <TD><FONT color="#333333">2016/02/15 14:52:50</FONT></TD>
+33 error  </TR>
+33 error </TABLE>
+33 error </BODY>
+33 error </HTML>
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
